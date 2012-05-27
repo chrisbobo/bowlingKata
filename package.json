@@ -1,0 +1,35 @@
+{
+	"name": "bowlingKata",
+	"description": "The best project ever.",
+	"version": "0.1.0",
+	"homepage": "https://github.com/chrisbobo/bowlingKata",
+	"author": {
+		"name": "Chris Bobo",
+		"email": "chrisbobo@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/chrisbobo/bowlingKata.git"
+	},
+	"bugs": {
+		"url": "https://github.com/chrisbobo/bowlingKata/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/chrisbobo/bowlingKata/blob/master/LICENSE-MIT"
+		}
+	],
+	"main": "lib/bowlingKata",
+	"engines": {
+		"node": "*"
+	},
+	"scripts": {
+		"test": "grunt test"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"grunt": "~0.3.9"
+	},
+	"keywords": []
+}
