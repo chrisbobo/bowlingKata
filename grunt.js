@@ -43,7 +43,9 @@ module.exports = function (grunt) {
 				sub: true,
 				undef: true,
 				boss: true,
-				eqnull: true
+				eqnull: true,
+				smarttabs: true,
+				laxbreak: true
 			},
 			globals: {
 				exports: true,

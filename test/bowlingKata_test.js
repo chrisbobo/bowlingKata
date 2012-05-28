@@ -56,6 +56,37 @@ exports['bowlingKata_test'] = {
 		test.equal(game.score(), 20);
 
 		test.done();
+	},
+
+	'roll 3 strikes score should be 60': function (test) {
+		test.expect(1);
+
+		game.roll(10);
+		game.roll(10);
+		game.roll(10);
+		test.equal(game.score(), 60);
+
+		test.done();
+	},
+
+	'roll 12 strikes (a perfect game), score should be 300': function (test) {
+		test.expect(1);
+
+		game.roll(10);
+		game.roll(10);
+		game.roll(10);
+		game.roll(10);
+		game.roll(10);
+		game.roll(10);
+		game.roll(10);
+		game.roll(10);
+		game.roll(10);
+		game.roll(10);
+		game.roll(10);
+		game.roll(10);
+		test.equal(game.score(), 300);
+
+		test.done();
 	}
 
 };
